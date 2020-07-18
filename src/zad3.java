@@ -8,7 +8,13 @@ public class zad3 {
         int c = scanner.nextInt();
 
         int delta = (b*b) -4*a*c;
-
-
+    if (delta<0) {
+        System.out.println("Delta ujemna");
+        return;
+    }
+    double x1 = (-b - Math.sqrt(delta))/2*a;
+    double x2 = (-b + Math.sqrt(delta))/2*a;
+        System.out.println(x1);
+        System.out.println(x2);
     }
 }
