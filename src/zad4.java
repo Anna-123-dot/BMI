@@ -14,7 +14,7 @@ public class zad4 {
                 System.out.println("Paf");
 
             } else if (i % 3 == 0) {
-                    System.out.println("Pif paf");
+                    System.out.println("Pif");
             } else
                 System.out.println(i);
         }
